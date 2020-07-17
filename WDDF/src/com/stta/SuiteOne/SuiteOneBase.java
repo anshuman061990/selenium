@@ -22,7 +22,7 @@ public class SuiteOneBase extends SuiteBase{
 	static ExtentReports report;
 	
 	
-	//This function will be executed before SuiteOne's test cases to check SuiteToRun flag.
+	//This function will be executed before SuiteOne's test cases to check SuiteToRun 
 	@BeforeSuite
 	public void checkSuiteToRun() throws IOException{		
 		//Called init() function from SuiteBase class to Initialize .xls Files
